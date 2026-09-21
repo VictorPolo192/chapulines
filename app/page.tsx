@@ -2,8 +2,6 @@
 "use client"
 
 import { useState } from "react"
-import { Blobatar } from "@blobatar/react"
-import "blobatar/motion.css"
 import { ArrowDownWideNarrow, ArrowUpNarrowWide, Search } from "lucide-react"
 import {
   Table,
@@ -65,7 +63,6 @@ export default function Page() {
           <div className="col-start-2 col-end-12 text-lg text-white">
             <div className="flex flex-col gap-6 xl:flex-row">
               <div className="min-w-0 flex-1">
-            <Blobatar name="alain00" animate="hover" />
             <label className="mb-4 flex w-fit items-center gap-2 rounded-md border border-white/30 bg-white px-3 py-2 text-black">
               <Search size={18} aria-hidden="true" />
               <input
